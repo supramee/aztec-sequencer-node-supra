@@ -49,6 +49,8 @@ echo -e "\n${CYAN}${BOLD}---- INSTALLING DEPENDENCIES ----${RESET}\n"
 sudo apt-get update
 sudo apt-get install -y curl screen net-tools psmisc jq
 
+[ -d /root/.aztec/alpha-testnet ] && rm -r /root/.aztec/alpha-testnet
+
 AZTEC_PATH=$HOME/.aztec
 BIN_PATH=$AZTEC_PATH/bin
 mkdir -p $BIN_PATH
