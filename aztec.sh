@@ -8,6 +8,9 @@ PURPLE='\033[1;35m'
 BOLD='\033[1m'
 RESET='\033[0m'
 
+curl -s https://raw.githubusercontent.com/zunxbt/logo/main/logo.sh | bash
+sleep 3
+
 echo -e "\n${CYAN}${BOLD}---- CHECKING DOCKER INSTALLATION ----${RESET}\n"
 if ! command -v docker &> /dev/null; then
   echo -e "${LIGHTBLUE}${BOLD}Docker not found. Installing Docker...${RESET}"
@@ -100,7 +103,7 @@ fi
 echo -e "${LIGHTBLUE}${BOLD}Visit ${PURPLE}https://dashboard.alchemy.com/apps${RESET}${LIGHTBLUE}${BOLD} or ${PURPLE}https://developer.metamask.io/register${RESET}${LIGHTBLUE}${BOLD} to create an account and get a Sepolia RPC URL.${RESET}"
 read -p "Enter Your Sepolia Ethereum RPC URL: " L1_RPC_URL
 
-echo -e "${LIGHTBLUE}${BOLD}Visit ${PURPLE}https://chainstack.com/global-nodes${RESET}${LIGHTBLUE}${BOLD} to create an account and get beacon RPC URL.${RESET}"
+echo -e "\n${LIGHTBLUE}${BOLD}Visit ${PURPLE}https://chainstack.com/global-nodes${RESET}${LIGHTBLUE}${BOLD} to create an account and get beacon RPC URL.${RESET}"
 read -p "Enter Your Sepolia Ethereum BEACON URL: " L1_CONSENSUS_URL
 
 echo -e "\n${LIGHTBLUE}${BOLD}Please create a new EVM wallet, fund it with Sepolia Faucet and then provide the private key.${RESET}"
