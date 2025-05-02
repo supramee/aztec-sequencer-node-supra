@@ -32,15 +32,19 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 > **If you're using the free version and reach the maximum request limit on either the Sepolia Ethereum RPC or the Sepolia Consensus (Beacon RPC) URL, you'll need to either upgrade to a premium plan or change the RPC endpoint each time you hit the limit.**
 
 ## 📥 Installation
+- Install `curl` and `wget` first
+```bash
+command -v curl >/dev/null 2>&1 || apt-get update && apt-get install -y curl; command -v wget >/dev/null 2>&1 || apt-get install -y wget
+```
 - Execute either of the following commands to run your Aztec node
-```
-[ -f "aztec.sh" ] && rm aztec.sh; wget -q -O aztec.sh https://raw.githubusercontent.com/zunxbt/aztec-sequencer-node/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
-```
-or
+
 ```
 [ -f "aztec.sh" ] && rm aztec.sh; curl -sSL -o aztec.sh https://raw.githubusercontent.com/zunxbt/aztec-sequencer-node/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
 ```
-
+or
+```
+[ -f "aztec.sh" ] && rm aztec.sh; wget -q -O aztec.sh https://raw.githubusercontent.com/zunxbt/aztec-sequencer-node/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
+```
 ## ⚡Commands
 - You can use this command to check logs of your node
 ```
@@ -68,7 +72,7 @@ curl -s -X POST -H 'Content-Type: application/json' -d '{"jsonrpc":"2.0","method
 
 ![image](https://github.com/user-attachments/assets/9920016c-da33-459d-a011-9ff55ad3b32d)
 
-- Now navigate to `operators | start-here` channel in [Aztec Discord Sever](https://discord.com/invite/aztec)
+- Now navigate to `operators | start-here` channel in [Aztec Discord Server](https://discord.com/invite/aztec)
 - Use the following command to get `Apprentice` role
 ```
 /operator start
