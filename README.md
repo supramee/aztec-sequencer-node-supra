@@ -68,12 +68,12 @@ curl -s -X POST -H 'Content-Type: application/json' -d '{"jsonrpc":"2.0","method
 - After running this code, you will get a block number like this : 66666
 
 - Use that block number in the places of `block-number` in the below command to get `proof`
+    
+![Screenshot 2025-05-02 120017](https://github.com/user-attachments/assets/ed5ba08e-a1a9-48bc-8518-b23211ac7588)
+
 ```
 curl -s -X POST -H 'Content-Type: application/json' -d '{"jsonrpc":"2.0","method":"node_getArchiveSiblingPath","params":["block-number","block-number"],"id":67}' http://localhost:8080 | jq -r ".result"
 ```
-- After running this command, you will get an output like this
-
-![image](https://github.com/user-attachments/assets/9920016c-da33-459d-a011-9ff55ad3b32d)
 
 - Now navigate to `operators | start-here` channel in [Aztec Discord Server](https://discord.com/invite/aztec)
 - Use the following command to get `Apprentice` role
