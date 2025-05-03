@@ -37,7 +37,7 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 
 - Install `curl` and `wget` first
 ```bash
-command -v curl >/dev/null 2>&1 || apt-get update && apt-get install -y curl; command -v wget >/dev/null 2>&1 || apt-get install -y wget
+(command -v curl >/dev/null 2>&1 && command -v wget >/dev/null 2>&1) || sudo apt-get update; command -v curl >/dev/null 2>&1 || sudo apt-get install -y curl; command -v wget >/dev/null 2>&1 || sudo apt-get install -y wget
 ```
 - Execute either of the following commands to run your Aztec node
 
