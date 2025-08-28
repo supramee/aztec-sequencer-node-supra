@@ -4,7 +4,7 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 
 **Note : There’s no official confirmation of any rewards, airdrop, or incentives. This is purely for learning, contribution and being early in a cutting-edge privacy project.**
 
-## 💻 System Requirements
+## 💻 System Requirements.
 
 | Component      | Specification               |
 |----------------|-----------------------------|
