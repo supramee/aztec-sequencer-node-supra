@@ -82,7 +82,7 @@ curl -s -X POST -H 'Content-Type: application/json' -d '{"jsonrpc":"2.0","method
 ```
 - It will ask the `address` , `block-number` and `proof` , Enter all of them one by one and you will get `Apprentice` instantly
 
-## 🚀 Register as Validator
+## 🚀 Register as Validator.
 >[!WARNING]
 >You may see an error like `ValidatorQuotaFilledUntil` when trying to register as a validator, which means the daily quota has been reached—convert the provided Unix timestamp to local time to know when you can try again to register as Validator.
 
