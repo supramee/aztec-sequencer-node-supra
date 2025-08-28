@@ -57,7 +57,7 @@ sudo docker logs -f --tail 100 $(docker ps -q --filter ancestor=aztecprotocol/az
 ```
 sudo docker stop $(docker ps -q --filter ancestor=aztecprotocol/aztec:latest | head -n 1)
 ```
-## 🧩 Post-Installation
+## 🧩 Post-Installation..
 > [!Note]
 > **After running node, you should wait at least 10 to 20 mins before your run these commands**
 
