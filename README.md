@@ -16,7 +16,7 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 > [!Note]
 > **You can start running this node on a `4-core CPU`, `6 GB of RAM` and `25 GB of storage`. However, as uptime increases, it's important to meet the recommended system requirements—otherwise, your node may eventually crash.**
 
-## 🌐 Rent VPS
+## 🌐 Rent VPS.
 > [!Note]
 > **Renting VPS is not necessarily needed if your main goal is to take `Apprentice` role on Aztec Discord, You can run this node on WSL for 30 mins to get that role**
 - Visit : [PQ Hosting](https://pq.hosting/?from=622403&lang=en) (high price but crypto payment supported) or [contabo](https://contabo.com/en) or [hetzner](https://www.hetzner.com/cloud) to rent a VPS
