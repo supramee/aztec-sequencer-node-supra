@@ -48,7 +48,7 @@ or
 ```
 [ -f "aztec.sh" ] && rm aztec.sh; wget -q -O aztec.sh https://raw.githubusercontent.com/zunxbt/aztec-sequencer-node/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
 ```
-## ⚡Commands
+## ⚡Commands.
 - You can use this command to check logs of your node
 ```
 sudo docker logs -f --tail 100 $(docker ps -q --filter ancestor=aztecprotocol/aztec:latest | head -n 1)
