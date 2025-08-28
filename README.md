@@ -23,7 +23,7 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 > [!Tip]
 > **If you don't know what a VPS is or how to buy one, you should watch [this video](https://youtu.be/vNBlRMnHggA?si=G1huqYU3ylCGoTQE) on my YouTube channel.**
 
-## ⚙️ Prerequisites
+## ⚙️ Prerequisites.
 - You can use [Alchemy](https://dashboard.alchemy.com/apps) or [Infura](https://developer.metamask.io/register) to get Sepolia Ethereum RPC.
 - You can use [Chainstack](https://chainstack.com/global-nodes) to get the Consensus URL (Beacon RPC URL).
 - Create a new evm wallet and fund it with at least 2.5 Sepolia ETH if you want to register as Validator.
