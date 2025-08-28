@@ -31,7 +31,7 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 > [!IMPORTANT]
 > **If you're using the free version and reach the maximum request limit on either the Sepolia Ethereum RPC or the Sepolia Consensus (Beacon RPC) URL, you'll need to either upgrade to a premium plan or change the RPC endpoint each time you hit the limit.**
 
-## 📥 Installation
+## 📥 Installation.
 > [!Tip]
 > **You can watch this [video](https://youtu.be/2mBIRmMPSEM?si=TG5MRwQyZ5XqcfLI) to learn how to set up aztec sequencer node very easily.**
 
